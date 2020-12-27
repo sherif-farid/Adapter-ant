@@ -31,7 +31,7 @@ import static javax.lang.model.element.Modifier.PRIVATE;
 import static javax.lang.model.element.Modifier.PUBLIC;
 import static javax.lang.model.element.Modifier.STATIC;
 
-@SupportedAnnotationTypes("com.sherif.adapterlib.CreateAdapter")
+@SupportedAnnotationTypes("com.sherif.CreateAdapter")
 public class MainProcessor extends AbstractProcessor {
     private ProcessingEnvironment processingEnvironment;
     private Types typeUtils;
