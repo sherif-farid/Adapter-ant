@@ -1,9 +1,10 @@
 plugins {
     id 'java'
+    id 'maven'
 }
 
-group 'com.sherif'
-version '1.0'
+group 'com.github.sherif-farid'
+version '1.0.3'
 
 repositories {
     mavenCentral()
