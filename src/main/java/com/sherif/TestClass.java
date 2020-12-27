@@ -1,3 +1,4 @@
+package com.sherif;
 
 public class TestClass {
     private final int x ;

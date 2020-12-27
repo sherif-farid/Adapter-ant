@@ -1,3 +1,4 @@
+package com.sherif ;
 
 import com.squareup.javapoet.ClassName;
 import com.squareup.javapoet.FieldSpec;
@@ -56,7 +57,7 @@ public class MainProcessor extends AbstractProcessor {
         print("start log ---------");
         for (Element rootElement : roundEnv.getElementsAnnotatedWith(CreateAdapter.class)) {
             // rootElement is all classes annotated
-            CreateAdapter createAdapter = rootElement.getAnnotation(CreateAdapter.class);
+           CreateAdapter createAdapter = rootElement.getAnnotation(CreateAdapter.class);
             String name = createAdapter.name();
             TypeMirror model = getModel(createAdapter);
             TypeMirror row = getRow(createAdapter);
